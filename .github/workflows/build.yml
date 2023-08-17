@@ -1,0 +1,24 @@
+# .github/workflows/build.yml
+
+name: Next Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # https://github.com/actions/checkout
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+      # https://github.com/actions/setup-node
+      - name: Setup Node.js installation
+        uses: actions/setup-node@v3
+        with:
+          # update the Node version to meet your needs
+          node-version: 16
+          cache: npm
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Next App
+        run: npm run build

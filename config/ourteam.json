@@ -1,0 +1,50 @@
+[
+  {
+    "groupName": "Executive Board (E-Board)",
+    "description": "The leadership team determining the vision and direction of M-Hub.",
+    "members": [
+      {
+        "name": "Sachchit Kunichetty",
+        "title": "President",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Casper Guo",
+        "title": "VP of Education",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Andrew Ye",
+        "title": "VP of External Affairs",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Amanda Li",
+        "title": "VP of Finance",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Tom Sherman",
+        "title": "VP of Internal Affairs",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Hannah Shu",
+        "title": "VP of Projects",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      }
+    ]
+  }
+]

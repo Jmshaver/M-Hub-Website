@@ -2,26 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hero {
+  @apply pt-24;
+  background: radial-gradient(50% 50% at 50% 50%, #9A3324 0%, rgba(67, 151, 117, 0) 100%), conic-gradient(from 174.92deg at 50% 50%, #D86018 -56.25deg, #9A3324 27.03deg, #D86018 169.15deg, #D86018 303.75deg, #9A3324 387.03deg);
 }
