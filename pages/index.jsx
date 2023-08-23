@@ -8,17 +8,18 @@ import Image from "next/image";
 import Timeline from "@/components/timeline";
 import { IoLogoLinkedin } from 'react-icons/io5';
 import { useRouter } from "next/router";
-import { useState } from "react";
+import HeadContent from "@/components/headContent";
 export default function Home({ teamjson, timeline }) {
   const router = useRouter();
   const basePath = router.basePath;
   return (
     <Layout>
+      <HeadContent title={"M-Hub"} />
       <Hero>
         <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
-              The Business Research Hub at U of M
+              The Business Research Hub <br /> <span className="font-semibold">at U of M</span>
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
               We empower the next generation of data scientists at the
@@ -75,17 +76,19 @@ export default function Home({ teamjson, timeline }) {
 
 
       </section>
+      <section id="team">
+        {teamjson.map((group, index) => (
+          <GroupSection key={group.groupName} basePath={basePath} group={group} />
+        ))}
+      </section>
 
-      {teamjson.map((group, index) => (
-        <GroupSection key={group.groupName} basePath={basePath} group={group} />
-      ))}
       <div className="container mx-auto mb-8 px-2">
         <h2 className="text-3xl text-center">
           Interested? <br />
           All UM Ann Arbor students can join for free!
         </h2>
         <div className="flex mt-4 justify-center">
-          <Button href="/join" text="Interest Form" />
+          <Button href="/join" text="Interest Forms" />
         </div>
       </div>
     </Layout>
@@ -152,9 +155,9 @@ function GroupSection({ group, basePath }) {
 
 function MemberCard({ json, basePath }) {
   return (
-    <div className="text-center rounded-lg bg-grey py-4 px-8 w-full sm:w-60">
+    <div className="text-center rounded-lg bg-grey p-4 w-80 sm:w-60">
       <Image
-        className="mx-auto mb-4 w-44 h-44 rounded-full"
+        className="mx-auto mb-4 rounded w-full h-72 sm:h-56 object-cover"
         width="500"
         height="500"
         src={

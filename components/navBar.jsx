@@ -1,19 +1,19 @@
 import { useState } from "react";
 import Link from "next/link";
-
+import Logo from "./logo";
 const links = [
   {
     "name": "Recruiting Timeline",
-    "href": "#timeline"
+    "href": "/#timeline"
   }, {
     "name": "Why Join",
-    "href": "#why-us"
+    "href": "/#why-us"
   }, {
     "name": "Our Team",
-    "href": "#"
+    "href": "/#team"
   }, {
     "name": "Join",
-    "href": "https://docs.google.com/forms/d/e/1FAIpQLScikbzVgNtJuPGpeRjZ-f0AOYfZHpP98S0W7ukdGXhDkGpsFQ/viewform?usp=sf_link"
+    "href": "/join"
   }
 ]
 
@@ -29,7 +29,7 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
   return (
     <div
-      className={`absolute pt-20 bg-gradient-to-br from-slate-700 to-gray-800  top-0 left-0 h-screen w-screen transform ${open ? "-translate-x-0" : "-translate-x-full"
+      className={`absolute pt-28 bg-gradient-to-br from-grey-dark to-grey  top-0 left-0 h-screen w-screen transform ${open ? "-translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out filter`}
     >
 
@@ -59,14 +59,15 @@ function MobileNav({ open, setOpen }) {
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex filter px-4 py-4 h-20 items-center fixed w-full backdrop-filter backdrop-blur z-50 ">
+    <nav className="flex justify-between filter px-4 py-4 h-28 items-center fixed w-full backdrop-filter backdrop-blur z-50 ">
       <MobileNav open={open} setOpen={setOpen} />
-      <div className="w-1/2 flex items-center z-50">
+      <div className=" flex items-center z-50">
         <Link className="text-2xl font-semibold" href="/">
-          M-Hub
+          <Logo
+          />
         </Link>
       </div>
-      <div className="w-9/12 flex justify-end items-center">
+      <div className="flex justify-end items-center">
         <div
           className="z-50 flex relative w-8 h-8 flex-col justify-between items-center sm:hidden cursor-pointer"
           onClick={() => {

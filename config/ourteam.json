@@ -4,45 +4,39 @@
     "description": "The leadership team determining the vision and direction of M-Hub.",
     "members": [
       {
-        "name": "Sachchit Kunichetty",
-        "title": "President",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "name": "Sophia Streu",
+        "title": "IDK",
+        "linkedin": "https://www.linkedin.com/in/sophia-streu-537031220/",
         "image": "temp.png"
       },
       {
-        "name": "Casper Guo",
-        "title": "VP of Education",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "name": "Alexi Weinberg",
+        "title": "IDK",
+        "linkedin": "https://www.linkedin.com/in/alexi-weinberg-22a777215/",
+        "image": "alexi_weinburg.jpg"
+      },
+      {
+        "name": "Jonah Weinbaum",
+        "title": "IDK",
+        "linkedin": "https://www.linkedin.com/in/weinbaumjonah/",
+        "image": "jonah_weinbaum.png"
+      },
+      {
+        "name": "Derek Lief",
+        "title": "IDK",
+        "linkedin": "https://www.linkedin.com/in/derek-lief-933409141/",
         "image": "temp.png"
       },
       {
         "name": "Andrew Ye",
-        "title": "VP of External Affairs",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "title": "IDK",
+        "linkedin": "https://www.linkedin.com/in/andrewye16/",
+        "image": "andrew_ye.jpg"
       },
       {
-        "name": "Amanda Li",
-        "title": "VP of Finance",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
-      },
-      {
-        "name": "Tom Sherman",
-        "title": "VP of Internal Affairs",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
-      },
-      {
-        "name": "Hannah Shu",
-        "title": "VP of Projects",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "name": "Jay Shaver",
+        "title": "Web Designer",
+        "linkedin": "https://www.linkedin.com/in/jay-shaver-a270a0178/",
         "image": "temp.png"
       }
     ]
