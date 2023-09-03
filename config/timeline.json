@@ -3,19 +3,19 @@
     "title": "Recruiting Timeline",
     "events": [
         {
-            "title": "Event 1",
-            "time": "April 20th",
+            "title": "BBA Meet the Club",
+            "time": "September 5th",
             "description": "Join us for the grand opening celebration!"
         },
         {
-            "title": "Event 2",
-            "time": "May 5th - August 15th",
-            "description": "Learn about the latest trends in technology."
+            "title": "Mass Meeting 1",
+            "time": "TBD",
+            "description": "Learn more about what we do in-depth."
         },
         {
-            "title": "Event 3",
-            "time": "June 15th",
-            "description": "Community picnic and games for all ages."
+            "title": "Mass Meeting 2",
+            "time": "TBD",
+            "description": "Learn more about what we do in-depth."
         }
     ]
 }
