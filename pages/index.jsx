@@ -22,8 +22,7 @@ export default function Home({ teamjson, timeline }) {
               The Business Research Hub <br /> <span className="font-semibold">at U of M</span>
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              We empower the next generation of data scientists at the
-              University of Michigan through education and exploration.
+            We strive to bridge the gap between research and academia and to provide students with learning, networking, and research opportunities.
             </p>
 
             <Button href="/join" text="Join Us" />
