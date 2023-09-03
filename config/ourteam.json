@@ -5,34 +5,35 @@
     "members": [
       {
         "name": "Sophia Streu",
-        "title": "IDK",
+        "title": "Co-President",
         "linkedin": "https://www.linkedin.com/in/sophia-streu-537031220/",
         "image": "sophia_streu.jpg"
       },
       {
         "name": "Alexi Weinberg",
-        "title": "IDK",
+        "title": "Co-President",
         "linkedin": "https://www.linkedin.com/in/alexi-weinberg-22a777215/",
         "image": "alexi_weinburg.jpg"
       },
       {
         "name": "Jonah Weinbaum",
-        "title": "IDK",
+        "title": "Head of Education",
         "linkedin": "https://www.linkedin.com/in/weinbaumjonah/",
         "image": "jonah_weinbaum.png"
       },
-      {
-        "name": "Derek Lief",
-        "title": "IDK",
-        "linkedin": "https://www.linkedin.com/in/derek-lief-933409141/",
-        "image": "derek_lief.png"
-      },
-      {
+            {
         "name": "Andrew Ye",
-        "title": "IDK",
+        "title": "Head of Outreach",
         "linkedin": "https://www.linkedin.com/in/andrewye16/",
         "image": "andrew_ye.jpg"
       },
+      {
+        "name": "Derek Lief",
+        "title": "Advisor",
+        "linkedin": "https://www.linkedin.com/in/derek-lief-933409141/",
+        "image": "derek_lief.png"
+      },
+
       {
         "name": "Jay Shaver",
         "title": "Web Designer",
