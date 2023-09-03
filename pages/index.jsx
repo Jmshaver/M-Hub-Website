@@ -84,7 +84,7 @@ export default function Home({ teamjson, timeline }) {
       <div className="container mx-auto mb-8 px-2">
         <h2 className="text-3xl text-center">
           Interested? <br />
-          All UM Ann Arbor students can join for free!
+          Click for our interest form!
         </h2>
         <div className="flex mt-4 justify-center">
           <Button href="/join" text="Interest Forms" />
