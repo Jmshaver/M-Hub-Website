@@ -66,12 +66,9 @@ export default function Home({ teamjson, timeline }) {
         <div className="container mx-auto pb-16 px-2">
           <h2 className="text-3xl font-bold mb-8 text-center">Why Join</h2>
           <div className="flex flex-col md:flex-row gap-4 ">
-            <WhyCard basePath={basePath} img="research.svg" title="Research" description="Collaborate with esteemed professors and Ph.D. Students on cutting-edge research initiatives, or work with them to develop your own research.
-" />
-            <WhyCard basePath={basePath} img="networking.svg" title="Networking" description="Develop relationships with professors and academics with years of industry-specific experience. Grow your personal and professional network by joining our collaborative research community.
-" />
-            <WhyCard basePath={basePath} img="education.svg" title="Education" description="Strengthen crucial research and data skills necessary for success in the workplace, educate yourself on emerging technologies and industry trends, and practice deep analysis. Become comfortable with complex initiatives and learn how to analyze field research.
-" />
+            <WhyCard basePath={basePath} img="research.svg" title="Research" description="Collaborate with esteemed professors and Ph.D. Students on cutting-edge research initiatives, or work with them to develop your own research." />
+            <WhyCard basePath={basePath} img="networking.svg" title="Networking" description="Develop relationships with professors and academics with years of industry-specific experience. Grow your personal and professional network by joining our collaborative research community." />
+            <WhyCard basePath={basePath} img="education.svg" title="Education" description="Strengthen crucial research and data skills necessary for success in the workplace, educate yourself on emerging technologies and industry trends, and practice deep analysis. Become comfortable with complex initiatives and learn how to analyze field research." />
           </div>
         </div>
 
