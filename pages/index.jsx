@@ -47,7 +47,8 @@ export default function Home({ teamjson, timeline }) {
             <h2 className="text-3xl font-bold mb-4" >Our Purpose</h2>
             <p className="mb-3">
               M-HUB aims to foster meaningful connections between students and business professors by offering collaborative opportunities for diverse research initiatives. Through these collaborations, we strive to cultivate a dynamic environment that nurtures innovation, fosters academic growth, and paves the way for future business leaders. We provide opportunities for students to RA in Business Research, build their own independent studies, and learn from Professors and students nationally involved in research.
-            <Button className="" href="/join" text="Join Today" />
+              </p>
+              <Button className="" href="/join" text="Join Today" />
           </div>
 
           <div id="timeline" className="bg-grey p-4 sm:p-8 rounded-lg md:w-1/2">
