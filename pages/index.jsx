@@ -22,7 +22,7 @@ export default function Home({ teamjson, timeline }) {
               The Business Research Hub <br /> <span className="font-semibold">at U of M</span>
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-            We strive to bridge the gap between research and academia and to provide students with learning, networking, and research opportunities.
+            We strive to bridge the gap between research and academia and to provide students with learning, networking, and research opportunities. As a newly created student organization at the University of Michigan, M-HUB works diligently to develop data-driven insights and contribute a youthful perspective to some of the most pressing research questions in academia.
             </p>
 
             <Button href="/join" text="Join Us" />
@@ -46,8 +46,7 @@ export default function Home({ teamjson, timeline }) {
           <div className="md:w-1/2 md:pt-8">
             <h2 className="text-3xl font-bold mb-4" >Our Purpose</h2>
             <p className="mb-3">
-              M-HUB aims to foster meaningful connections between students and business professors by offering collaborative opportunities for research initiatives. Through these collaborations, we strive to cultivate a dynamic environment that nurtures innovation, fosters academic growth, and paves the way for future business leaders.
-            </p>
+              M-HUB aims to foster meaningful connections between students and business professors by offering collaborative opportunities for diverse research initiatives. Through these collaborations, we strive to cultivate a dynamic environment that nurtures innovation, fosters academic growth, and paves the way for future business leaders. We provide opportunities for students to RA in Business Research, build their own independent studies, and learn from Professors and students nationally involved in research.
             <Button className="" href="/join" text="Join Today" />
           </div>
 
@@ -67,9 +66,12 @@ export default function Home({ teamjson, timeline }) {
         <div className="container mx-auto pb-16 px-2">
           <h2 className="text-3xl font-bold mb-8 text-center">Why Join</h2>
           <div className="flex flex-col md:flex-row gap-4 ">
-            <WhyCard basePath={basePath} img="research.svg" title="Research" description="Collaborate on esteemed professors' cutting-edge research initiatives" />
-            <WhyCard basePath={basePath} img="networking.svg" title="Networking" description="Develop relationships with professors with years of industry experience " />
-            <WhyCard basePath={basePath} img="education.svg" title="Education" description="Strengthen crucial research and data skills necesssary to succeed in the workforce" />
+            <WhyCard basePath={basePath} img="research.svg" title="Research" description="Collaborate with esteemed professors and Ph.D. Students on cutting-edge research initiatives, or work with them to develop your own research.
+" />
+            <WhyCard basePath={basePath} img="networking.svg" title="Networking" description="Develop relationships with professors and academics with years of industry-specific experience. Grow your personal and professional network by joining our collaborative research community.
+" />
+            <WhyCard basePath={basePath} img="education.svg" title="Education" description="Strengthen crucial research and data skills necessary for success in the workplace, educate yourself on emerging technologies and industry trends, and practice deep analysis. Become comfortable with complex initiatives and learn how to analyze field research.
+" />
           </div>
         </div>
 
