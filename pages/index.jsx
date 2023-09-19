@@ -23,7 +23,7 @@ export default function Home({ teamjson, timeline }) {
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
             We strive to bridge the gap between research and academia.
-            <br>
+              
             As a newly created student-led organization at the University of Michigan, M-HUB works diligently to develop data-driven insights and contribute a youthful perspective to some of the most pressing research questions in academia. We aim to provide all students, especially undergrads, with learning, networking, and research opportunities at UofM and elsewhere.
             </p>
 
