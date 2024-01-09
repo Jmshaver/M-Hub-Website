@@ -3,19 +3,9 @@
     "title": "Recruiting Timeline",
     "events": [
         {
-            "title": "BBA Meet the Club",
-            "time": "September 5th",
-            "description": "Join us for the grand opening celebration!"
-        },
-        {
-            "title": "Get to Know M-HUB",
-            "time": "October 11th",
-            "description": "Mass Meeting & Speaker Event"
-        },
-        {
-            "title": "Ph.D. Presentations & Speaker Panel",
-            "time": "October 25th",
-            "description": "Research presentations from your academic community!"
-        }
+            "title": "M-Hub Research Symposium",
+            "time": "Blau Colloquium | January 17th, 6-7pm",
+            "location": "Blau Colloquium"
+            "description": "Connect with professors who have substantial research and industry experience, gain insights from a panel of esteemed Michigan Ross professors, and discover opportunities to engage in ongoing research projects."
     ]
 }
