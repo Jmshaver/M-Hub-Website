@@ -12,7 +12,7 @@ export default function Home({ teamjson, timeline }) {
     const interestForms = [
         {
             "name": "Student",
-            "href": "https://docs.google.com/forms/d/e/1FAIpQLScikbzVgNtJuPGpeRjZ-f0AOYfZHpP98S0W7ukdGXhDkGpsFQ/viewform",
+            "href": "https://forms.gle/ygM4LJUMddQ9ohLb6",
             "icon": PiStudent
         },
         {
