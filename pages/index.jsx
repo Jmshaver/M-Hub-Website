@@ -14,7 +14,7 @@ export default function Home({ teamjson, timeline }) {
   const basePath = router.basePath;
   return (
     <Layout>
-      <HeadContent title={"M-Hub"} />
+      <HeadContent title={"M-Hub - The Business Research Hub at University of Michigan"} />
       <Hero>
         <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
