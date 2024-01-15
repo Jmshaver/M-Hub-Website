@@ -3,19 +3,20 @@
     "title": "Recruiting Timeline",
     "events": [
         {
-            "title": "BBA Meet the Club",
-            "time": "September 5th",
-            "description": "Join us for the grand opening celebration!"
+            "title": "BBA Meet the Club @ Ross Winter Garden",
+            "time": "January 16, 2024 5:30pm - 7:30pm",
+            "description": "Join us for the new semester!"
         },
         {
-            "title": "Get to Know M-HUB",
-            "time": "October 11th",
-            "description": "Mass Meeting & Speaker Event"
+            "title": "M-Hub Research Symposium @ Blau Colloquium",
+            "time": "January 17th, 2024 6-7pm",
+            "description": "Hear from a panel of distinguished professors with years of academic and industry experience and get involved with research projects!"
         },
         {
-            "title": "Ph.D. Presentations & Speaker Panel",
-            "time": "October 25th",
-            "description": "Research presentations from your academic community!"
-        }
+            "title": "Mass Meeting @ B1580",
+            "time": "January 21, 2024 7:30pm - 8:30pm",
+            "description": "Learn more about what we do as a club!"
+        },
+
     ]
 }
