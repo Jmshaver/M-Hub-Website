@@ -10,6 +10,9 @@ export default function Footer() {
         <Link href="https://www.linkedin.com/company/business-research-hub-ad-the-university-of-michigan/about/">
           <IoLogoLinkedin className="text-4xl" />
         </Link>
+        <Link href="https://www.instagram.com/umichhub?igsh=M2tmcWJlNmQzbzU4">
+          <IoLogoInstagram className="text-4xl" />
+        </Link>
       </div>
       <Link className="text-xs text-center text-grey-xlight block" href="https://www.freepik.com">Images: Freepik</Link>
     </footer>
