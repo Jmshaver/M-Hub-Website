@@ -7,7 +7,7 @@ import Timeline from "@/components/timeline";
 import { PiStudent, PiChalkboardTeacher } from 'react-icons/pi';
 import HeadContent from "@/components/headContent";
 import { createElement } from "react";
-export default function Home({ teamjson, timeline }) {
+export default function Join({ timeline }) {
 
     const interestForms = [
         {
@@ -61,5 +61,4 @@ export async function getStaticProps() {
     const timelineFileContent = fs.readFileSync(timelineFilePath, "utf-8");
     const timeline = JSON.parse(timelineFileContent);
     return { props: { timeline } };
-    // return { props: {} };
 }
