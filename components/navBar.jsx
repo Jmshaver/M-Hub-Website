@@ -14,6 +14,9 @@ const links = [
   }, {
     "name": "Join",
     "href": "/join"
+  }, {
+    "name": "Events",
+    "href": "/events"
   }
 ]
 
