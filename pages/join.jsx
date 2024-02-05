@@ -12,12 +12,12 @@ export default function Join({ timeline }) {
     const interestForms = [
         {
             "name": "Student",
-            "href": "https://forms.gle/ygM4LJUMddQ9ohLb6",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSfjqtIcGMQWnviGu1Oa5yH3U0747deJUucC1PzJRNgGcwHhzQ/viewform",
             "icon": PiStudent
         },
         {
             "name": "Faculty",
-            "href": "https://docs.google.com/forms/d/1PzHIuwwiiiaHmdE5dvusTlGqRwZ3XvZKNkl-sGnilbM/edit",
+            "href": "https://docs.google.com/forms/d/1PzHIuwwiiiaHmdE5dvusTlGqRwZ3XvZKNkl-sGnilbM/",
             "icon": PiChalkboardTeacher
 
         }
