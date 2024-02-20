@@ -22,9 +22,9 @@ export default function Home({ teamjson, timeline }) {
               The Business Research Hub <br /> <span className="font-semibold">at U of M</span>
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-            We strive to bridge the gap between research and academia.<br /><br />
+            We strive to bridge the gap between business and academia.<br /><br />
               
-            As a newly created student-led organization at the University of Michigan, M-HUB works diligently to develop data-driven insights and contribute a youthful perspective to some of the most pressing research questions in academia. We aim to provide all students, especially undergrads, with learning, networking, and research opportunities at UofM and elsewhere.
+            As a newly created student-led organization at the University of Michigan, M-HUB strives to make business research more accessible to undergraduates by providing learning, networking, and research opportunities. By facilitating collaborative opportunities for diverse research initiatives, M-HUB aims to foster meaningful connections between students, business professors, and industry experts. Through these collaborations, we seek to cultivate a dynamic environment that nurtures innovation, fosters academic growth, and paves the way for future business leaders.
             </p>
 
             <Button href="/join" text="Join Us" />
@@ -69,9 +69,9 @@ export default function Home({ teamjson, timeline }) {
         <div className="container mx-auto pb-16 px-2">
           <h2 className="text-3xl font-bold mb-8 text-center">Why Join</h2>
           <div className="flex flex-col md:flex-row gap-4 ">
-            <WhyCard basePath={basePath} img="research.svg" title="Research" description="Collaborate with esteemed professors and Ph.D. Students on cutting-edge research initiatives, or work with them to develop your own research." />
+            <WhyCard basePath={basePath} img="research.svg" title="Research" description="Pursue research assistant opportunities to collaborate with esteemed professors and Ph.D. students on cutting-edge research initiatives." />
             <WhyCard basePath={basePath} img="networking.svg" title="Networking" description="Develop relationships with professors and academics with years of industry-specific experience. Grow your personal and professional network by joining our collaborative research community." />
-            <WhyCard basePath={basePath} img="education.svg" title="Education" description="Strengthen crucial research and data skills necessary for success in the workplace, educate yourself on emerging technologies and industry trends, and practice deep analysis. Become comfortable with complex initiatives and learn how to analyze field research." />
+            <WhyCard basePath={basePath} img="education.svg" title="Education" description="Engage in workshops and bootcamps to strengthen crucial research and data skills and learn about emerging technologies and industry trends. " />
           </div>
         </div>
 
